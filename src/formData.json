@@ -1,0 +1,29 @@
+[
+    {
+        "token": "PERSON_NAME",
+        "type": "text",
+        "props": {
+            "required": true,
+            "title": "Enter your name",
+            "placeholder": "eg.John"
+        }
+    },
+    {
+        "token": "IS_PERSON_MINOR",
+        "type": "checkbox",
+        "props": {
+            "required": true,
+            "title": "is current person minor?",
+            "default": false
+        }
+    },
+    {
+        "token": "PERSON_DOB",
+        "type": "date",
+        "props": {
+            "required": "IS_PERSON_MINOR",
+            "title": "Enter your DOB",
+            "placeholder": "eg. 01/01/2000"
+        }
+    }
+]
